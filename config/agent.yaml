@@ -1,0 +1,24 @@
+# Agent Manifest — AgentRegistry entry point
+
+id: "HCR-C2-060"
+name: "CTDClinicalSummaryAgent"
+namespace: "hcr"
+version: "1.0.0"
+enabled: true
+category: "Cat 2"
+generation_mode: "deterministic"
+industry: "HCR"
+
+# Opaque compatibility metadata. It is not an inheritance selector or gate input.
+base_type: "AgentBaseGraph"
+
+# Entry point — single dotted import path (module.Class).
+class: "src.graph.graph.CTDClinicalSummaryAgent"
+
+required_trust_level: "VERIFIED_EXTERNAL"
+
+requires:
+  secrets: []
+  extras: []
+
+# Runtime parameters live in config/config.yaml.

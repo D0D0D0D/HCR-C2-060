@@ -1,0 +1,8 @@
+schema_version: "2026-07-15"
+owner: "customer_regulatory_affairs"
+forbidden_terms:
+  - "有効である"
+  - "安全である"
+  - "優越性が示された"
+  - "治癒する"
+  - "副作用はない"

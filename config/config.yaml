@@ -1,0 +1,15 @@
+max_retry: 3
+timeout_seconds: 120
+memory_enabled: true
+hitl:
+  enabled: true
+  max_hitl: 12
+ingest:
+  max_document_bytes: 65536
+  supported_formats: ["structured_json"]
+retrieval:
+  top_k_past_sections: 5
+  top_k_past_inquiries: 10
+section_specs_dir: "config/section_specs"
+inquiry_categories_file: "config/inquiry_categories.yaml"
+assertion_lexicon_file: "config/assertion_lexicon.yaml"

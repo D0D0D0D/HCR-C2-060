@@ -1,0 +1,22 @@
+section_id: "2.7.3"
+title_en: "Summary of Clinical Efficacy"
+title_ja: "臨床的有効性の概要"
+parent_module: "2.7"
+required_elements:
+  - id: "study_populations"
+    label_ja: "解析対象集団の定義"
+    source_types: ["statistical_summary", "csr_summary"]
+  - id: "efficacy_comparison_across_studies"
+    label_ja: "全試験の有効性結果の比較"
+    source_types: ["statistical_summary"]
+  - id: "dose_response"
+    label_ja: "用量反応関係"
+    source_types: ["csr_summary"]
+frequent_inquiry_categories: ["STAT", "EFFICACY_BASIS", "CONSISTENCY"]
+skeleton:
+  - "2.7.3.1 臨床的有効性の背景及び概観"
+  - "2.7.3.2 個々の試験結果の要約"
+  - "2.7.3.3 試験間の結果の比較及び解析"
+  - "2.7.3.4 用法用量に関連する臨床情報の解析"
+  - "2.7.3.5 有効性の持続及び耐性"
+  - "2.7.3.6 付録"
